@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "quantumalgorithms"
+version = "0.1.0"
+description = ""
+authors = ["DavidZ <davidzam_97@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+numpy = "^1.25.2"
+qiskit = "^0.44.1"
+scipy = "^1.11.2"
+matplotlib = "^3.7.3"
+qiskit-aer = "^0.12.2"
+pylatexenc = "^2.10"
+primefac = "^2.0.12"
+sympy = "^1.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
